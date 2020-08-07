@@ -49,6 +49,14 @@ We conclude that the target value 31 is stored at location 5.
 
 Binary search halves the searchable items and thus reduces the count of comparisons to be made to very less numbers.
 
+### Different Cases
+
+#### 1.  Worst-case scenario [ Big O ( log n ) ] :
+We have to divide a list of n elements in half **repeatedly** to find the target element, either because the target element will not be found at the end of the last division or doesn't exist in the array at all.
+#### 2. Best-case scenario [ Sigma (1) ] :
+The target element is at the midpoint of the full array, and so we can stop looking after we start
+
+
 ## Pseudocode
 
 The pseudocode of binary search algorithms should look like this −
