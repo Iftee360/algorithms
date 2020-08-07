@@ -18,6 +18,8 @@ exist in the array at all.
 *Best-case scenenraio [Sigma (1)]: the trget element is the first element of the array,
 and so we can stop looking immediately after we start
 */
+
+
 //CODE (in C language)
 
 #include <stdio.h>
