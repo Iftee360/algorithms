@@ -10,6 +10,14 @@
     *otherwise , move to the next element
 */
 
+/* Cases
+* Worst-case scenerio [Big O (n)]: WE have to look theough the entirearray of n elements,
+either because the target element is the last element of the array or doesn't
+exist in the array at all.
+
+*Best-case scenenraio [Big O (1)]: the trget element is the first element of the array,
+and so we can stop looking immediately after we start
+*/
 //CODE (in C language)
 
 #include <stdio.h>
