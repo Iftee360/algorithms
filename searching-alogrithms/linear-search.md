@@ -36,11 +36,15 @@ and so we can stop looking immediately after we start
 	  {
 	    if(anArray[i] == 323)
 	    {
-	      printf("the target number is at location %d of the Array\n", i);
+	      printf("the target number is at location %d of the Array.\n", i);
 	      return 1;
 	    }
 	  }
 	  return 0;
 	}
 
+```
+## Output:
+```
+the target is at location 8 of the Array.
 ```
